@@ -39,6 +39,7 @@ dpkg -i oracle-database-xe-18c_1.0-2_amd64.deb
 We will start configuring
 
 __IPV4 Settings__
+
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_142144.png)
 
 **Oracle Configuring**
