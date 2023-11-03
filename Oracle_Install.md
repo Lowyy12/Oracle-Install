@@ -4,7 +4,7 @@ The firts thing we have to do is update the packages:
 sudo apt-get update
 ```
 
-![[Screenshot_20231102_134917.png]]
+https://raw.githubusercontent.com/Lowyy12/Oracle-Install/blob/main/fotos/Screenshot_20231102_134917.png
 
 The second command is: 
 ``` bash
