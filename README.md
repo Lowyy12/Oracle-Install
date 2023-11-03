@@ -64,6 +64,7 @@ File:
 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false
 
 Finish
+
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145407.png)
 
 Change the **oracle** uiser password
