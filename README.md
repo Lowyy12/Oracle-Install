@@ -59,9 +59,11 @@ _FATAL DBT-50000, Unable to check for available memory, Oracle 18c XE_
 File:
 
 /etc/init.d/oracle-xe-18c
+
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145023.png)
 
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145109.png)
+
 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false
 
 Finish
