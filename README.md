@@ -91,6 +91,7 @@ https://rene-ace.com/tratas-de-conectarte-como-sysdba-y-no-puedes-por-el-error-o
 
 
 To mount the database:
+
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231103_003922.png)
 
 Now we are going to add an extra and it is to have a user in this case "lowy" as a user in Oracle and not only in our operating system and we will also create our own role:
@@ -100,7 +101,7 @@ ORA-6509 Solution
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231103_005024.png)
 Create role:
 
-```sqlñ
+```sql
 CREATE ROLE rol_ini;
 
 CREATE ROLE rol_ini NOT IDENTIFIED;
