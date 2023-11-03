@@ -1,10 +1,12 @@
+# Oracle-Install
+This is a repository where I am going to explain the installation of oracle on a Debian Operating System
+
 The firts thing we have to do is update the packages:
 
 ``` bash
 sudo apt-get update
 ```
-
-https://raw.githubusercontent.com/Lowyy12/Oracle-Install/blob/main/fotos/Screenshot_20231102_134917.png
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_134917.png)
 
 The second command is: 
 ``` bash
@@ -18,7 +20,7 @@ groupadd dba
 useradd -m -s /bin/bash -g dba oracle
 ```
 
-![[Screenshot_20231102_135136.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_135136.png)
 
 ### oracle installation
 
@@ -32,12 +34,12 @@ The next step:
 dpkg -i oracle-database-xe-18c_1.0-2_amd64.deb
 ```
 
-![[Screenshot_20231102_141919.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_141919.png)
 
 We will start configuring
 
 __IPV4 Settings__
-![[Screenshot_20231102_142144.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_142144.png)
 
 **Oracle Configuring**
 
@@ -45,32 +47,32 @@ __IPV4 Settings__
 /etc/init.d/oracle-xe-18c configure
 ```
 
-![[Screenshot_20231102_143021.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_143021.png)
 
 We will confirm the password will be used for SYS, SYSTEM and PDBADMIN accounts.
 
-![[Screenshot_20231102_144752.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_144752.png)
 
 _FATAL DBT-50000, Unable to check for available memory, Oracle 18c XE_
 
 File:
 
 /etc/init.d/oracle-xe-18c
-![[Screenshot_20231102_145023.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145023.png)
 
-![[Screenshot_20231102_145109.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145109.png)
 -J-Doracle.assistants.dbca.validate.ConfigurationParams=false
 
 Finish
-![[Screenshot_20231102_145407.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145407.png)
 
 Change the **oracle** uiser password
 
-![[Screenshot_20231102_145611.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145611.png)
 
 We will export the path to be able to have sqlplus
 
-![[Screenshot_20231102_145936.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_145936.png)
 
 To make it stay permanently, we copy this into the .bashrc and close and open the terminal.
 
@@ -84,17 +86,15 @@ Solution error (ORA-12547: TNS:lost contact)
 
 https://rene-ace.com/tratas-de-conectarte-como-sysdba-y-no-puedes-por-el-error-ora-12547/
 
-![[Screenshot_20231102_235801.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231102_235801.png)
 
 To mount the database:
-
-![[Screenshot_20231103_003922.png]]
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231103_003922.png)
 
 Now we are going to add an extra and it is to have a user in this case "lowy" as a user in Oracle and not only in our operating system and we will also create our own role:
 
 ORA-6509 Solution
-![[Screenshot_20231103_005024.png]]
-
+![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231103_005024.png)
 Create role:
 
 ```sqlñ
@@ -137,3 +137,4 @@ alter user lowy identified by 1234;
 ```
 
 #### This would be one of the most correct ways to start with databases, I hope you liked it.
+
