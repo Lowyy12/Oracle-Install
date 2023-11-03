@@ -98,7 +98,9 @@ Now we are going to add an extra and it is to have a user in this case "lowy" as
 
 
 ORA-6509 Solution
+
 ![Captura de pantalla](https://raw.githubusercontent.com/Lowyy12/Oracle-Install/main/fotos/Screenshot_20231103_005024.png)
+
 Create role:
 
 ```sql
